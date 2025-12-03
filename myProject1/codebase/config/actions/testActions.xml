@@ -19,4 +19,12 @@
 				<type value="com.training.MechanicalPart1"/>
           </supportedTypes>
 		</action>
+
+ <objecttype name="training111"  resourceBundle="ext.training.resource.TrainingResource">
+		<action name="trainingAction1">         
+          <command windowType="popup" url="/netmarkets/jsp/training25/demoOne111.jsp"/>
+          <supportedTypes>
+				<type value="com.training.MechanicalPart111"/>
+          </supportedTypes>
+		</action>
 </listofactions>
