@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!DOCTYPE listofactions SYSTEM 'actions.dtd'>
+
+
+<listofactions>
+
+    <objecttype name="training"  resourceBundle="ext.training.resource.TrainingResource">
+		<action name="trainingAction">         
+          <command windowType="popup" url="/netmarkets/jsp/training25/demoOne.jsp"/>
+          <supportedTypes>
+				<type value="com.training.MechanicalPart"/>
+          </supportedTypes>
+		</action>
+</listofactions>
